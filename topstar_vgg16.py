@@ -41,6 +41,7 @@ def upload_file():
             data = np.array([img])
             #変換したデータをモデルに渡して予測する
             result = model.predict(data)[0]
+            print(result)
             predicted = result.argmax()
             pred_answer = "これは " + classes[predicted] + " です"
 
