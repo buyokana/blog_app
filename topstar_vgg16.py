@@ -8,7 +8,7 @@ import numpy as np
 
 
 classes = ['柚香光', '月城かなと', '彩風咲奈', '礼真琴', '芹香斗亜']
-image_size = 50
+image_size = 100
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
